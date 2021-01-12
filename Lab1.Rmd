@@ -17,6 +17,6 @@ library(dplyr)
 
 ```{r}
 ggplot(data = starwars, aes(x= height, y= mass)) +
-  geom_point(color= "purple")
+  geom_point(color= "darkblue")
 ```
 
