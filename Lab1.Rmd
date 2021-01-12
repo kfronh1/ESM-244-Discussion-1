@@ -1,0 +1,22 @@
+---
+title: "Lab 1"
+author: "Kelsie Fronheiser"
+date: "1/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+```
+
+```{r}
+ggplot(data = starwars, aes(x= height, y= mass)) +
+  geom_point(color= "purple")
+```
+
